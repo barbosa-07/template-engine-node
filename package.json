@@ -1,8 +1,8 @@
 {
-  "name": "template-engine-node",
+  "name": "templeto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cli.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/barbosa-07/template-engine-node/issues"
   },
-  "homepage": "https://github.com/barbosa-07/template-engine-node#readme"
+  "bin": {
+    "templeto": "cli.mjs"
+  },
+  "homepage": "https://github.com/barbosa-07/template-engine-node#readme",
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4"
+  }
 }
